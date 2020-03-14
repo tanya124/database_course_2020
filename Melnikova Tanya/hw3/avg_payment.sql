@@ -1,7 +1,6 @@
 -- Посчитать средний платёж платящего пользователя
-SELECT USER_ID, AVG(PAYMENT_SUM) AS AVG_SUM
+SELECT AVG(PAYMENT_SUM) AS AVG_SUM
 FROM PAYMENTS
-GROUP BY USER_ID;
 
 -- Результат
 /*
